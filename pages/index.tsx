@@ -1,15 +1,13 @@
 import type { NextPage } from "next";
 import Image from "next/image";
-import Content from "../components/content";
-import Process from "../components/process";
-import PlatformInfo from "../components/platform-info";
-import Reporting from "../components/reporting";
-import ProfessionalService from "../components/professional-service";
-import FrameComponent1 from "../components/frame-component1";
-import FrameComponent from "../components/frame-component";
-import Hero from "../components/hero/hero";
 import Cards from "../components/cards";
+import Content from "../components/content";
+import Hero from "../components/hero/hero";
+import Process from "../components/process";
+import Reporting from "../components/reporting";
 import Responsibilities from "../components/responsibilities/Responsibilities";
+import ScreenShots from "../components/screenShots/ScreenShots";
+import LidForm from "../components/LidForm";
 
 const MacBookPro16: NextPage = () => {
   return (
@@ -19,95 +17,21 @@ const MacBookPro16: NextPage = () => {
       <Cards />
       <Responsibilities />
       <Content />
-      <section className="absolute top-[3810px] left-[0px] w-full flex flex-col items-start justify-start gap-12 max-w-full text-right text-22xl text-steelblue-200 font-heebo mq450:gap-6">
-        <Process />
-        <PlatformInfo />
-        <div className="w-[1574px] flex flex-row items-start justify-start py-0 px-[468px] box-border max-w-full mq450:pl-5 mq450:pr-5 mq450:box-border mq900:pl-[117px] mq900:pr-[117px] mq900:box-border mq1325:pl-[234px] mq1325:pr-[234px] mq1325:box-border">
-          <div className="h-[360px] flex-1 relative inline-block max-w-full mq450:text-lg">
-            <p className="m-0">
-              <span>
-                <b>מעקב אחרי המשלוח בזמן אמת</b>
-              </span>
-            </p>
-            <p className="m-0 text-black">
-              <span>
-                <span>עבור מקבל החבילה ועבור השולח</span>
-              </span>
-            </p>
-            <ul className="m-0 text-3xl pl-[29px]">
-              <li className="mb-0">
-                <span>
-                  <span className="leading-[48px]">
-                    עדכון רציף על מצב המשלוח
-                  </span>
-                </span>
-              </li>
-              <li className="mb-0">
-                <span>
-                  <span className="leading-[48px]">
-                    התרעות SMS לאורך כל התהליך
-                  </span>
-                </span>
-              </li>
-              <li className="mb-0">
-                <span>
-                  <span className="leading-[48px]">
-                    חתימה דיגטלית על קבלת המשלוח,
-                  </span>
-                </span>
-              </li>
-              <li className="mb-0">
-                <span>
-                  <span className="leading-[48px]">
-                    מעקב ועדכון איסוף תשלום מהלקוח
-                  </span>
-                </span>
-              </li>
-              <li className="mb-0">
-                <span>
-                  <span className="leading-[48px]">מעקב חזרות וחריגים</span>
-                </span>
-              </li>
-              <li className="mb-0">
-                <span>
-                  <span className="leading-[48px]">
-                    צילום מיקום המשלוח במידה ואושר נקודת הנחה.
-                  </span>
-                </span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-  
-      <div className="absolute top-[4770px] left-[1089px] w-[390px] h-[724.5px]">
-        <Image
-          className="absolute top-[0px] left-[0px] w-[390px] h-[692px] object-contain z-[3]"
-          width={390}
-          height={692}
-          alt=""
-          src="/rectangle-4@2x.png"
-        />
-        <Image
-          className="absolute top-[625.5px] left-[58.6px] w-[124.2px] h-[99px] object-contain z-[4]"
-          loading="lazy"
-          width={124}
-          height={99}
-          alt=""
-          src="/ar4.svg"
-        />
-      </div>
+      <Process />
+      <ScreenShots />
+
+
 
       <h3 className="m-0 absolute top-[7092px] left-[1954px] text-inherit font-bold font-[inherit] text-steelblue-200 inline-block w-[449px] h-[60px] mq450:text-6xl mq900:text-14xl">
         מערכת
       </h3>
-      {/* <Image
+      <Image
         className="absolute top-[6761px] left-[0px] w-[1727px] h-[560px]"
         width={1727}
         height={560}
         alt=""
         src="/line-3.svg"
-      /> */}
+      />
       <section className="absolute top-[5794.3px] left-[266px] w-[1462px] flex flex-col items-start justify-start gap-[9px] max-w-full text-center text-10xl text-black font-heebo">
         <Reporting />
         <div className="w-[1207px] flex flex-row items-start justify-start py-0 px-[22px] box-border max-w-full">
