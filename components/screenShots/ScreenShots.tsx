@@ -8,8 +8,8 @@ const ScreenShots = () => {
           <div className="flex flex-col items-end absolute -top-96 left-10">
             <Image
               className="object-contain z-[3]"
-              width={340}
-              height={600}
+              width={280}
+              height={500}
               alt=""
               src="/smartphone_mockup.png"
             />
@@ -23,7 +23,7 @@ const ScreenShots = () => {
             />
           </div>
         </div>
-        <div className="flex-1 flex flex-col gap-4">
+        <div className="flex-1 flex flex-col gap-4 pt-10">
           <p className="text-4xl text-steelblue-200 font-bold">
             מעקב אחרי המשלוח בזמן אמת
           </p>
@@ -37,6 +37,63 @@ const ScreenShots = () => {
             <li>צילום מיקום המשלוח במידה ואושר נקודת הנחה</li>
           </ul>
         </div>
+      </div>
+      <div className="flex container pt-20">
+        <div className="flex-1 flex justify-end">
+
+        <div className="flex flex-col gap-4 pt-32 mr-auto max-w-fit">
+          <p className="text-4xl text-steelblue-200 font-bold">
+            הפקת דוחות מסודרים בכל זמן
+          </p>
+          <p className="text-4xl">ליעול והתמצאות מלאה</p>
+          <ul dir="rtl" className="text-xl leading-9 list-disc px-8">
+            <li>דוחות חודשיים ממוינים לפי קטגוריות</li>
+            <li>דוחות איסוף תשלומים וקיזוז מעלויות המשלוחים</li>
+            <li>אנליזה של שביעות רצון</li>
+            <li>דוחות זמני אספקה ואיכות השירות</li>
+            <li>ניתוח תובנות שילוח בהתאם לדוחות</li>
+          </ul>
+        </div>
+        </div>
+        <div className="flex-1 relative flex items-start">
+          <Image
+            className="object-contain z-[4] mt-16"
+            loading="lazy"
+            width={124}
+            height={99}
+            alt=""
+            src="/ar5.svg"
+          />
+          <Image
+            className="object-contain z-[3]"
+            width={600}
+            height={400}
+            alt=""
+            src="/rectangle-6@2x.png"
+          />
+        </div>
+      </div>
+      <div className=" flex flex-col text-center gap-10 mt-40">
+        <b className="text-4xl">
+          אנו יודעים להתחבר לכל הפלטפורמות הדיגיטליות המובילות בקלות וביעילות
+        </b>
+        <div className="w-full flex flex-row container mx-auto items-center justify-between">
+          <div className="flex-1 flex flex-row items-start justify-between max-w-full gap-5 mq1325:flex-wrap">
+            <div className="h-[93px] w-[164px] relative bg-gainsboro" />
+            <div className="h-[93px] w-[163px] relative bg-gainsboro" />
+            <div className="h-[94px] w-[164px] relative bg-gainsboro" />
+            <div className="h-[94px] w-[163px] relative bg-gainsboro" />
+            <div className="h-[94px] w-[164px] relative bg-gainsboro" />
+          </div>
+        </div>
+        <section
+          dir="rtl"
+          className="text-2xl font-heebo text-black text-center container mx-auto"
+        >
+          בנוסף, במידת הצורך, אנו מציעים התממשקות API מתקדמת, המאפשרת חיבור ישיר
+          ומדויק למערכות שלכם, לשיפור תהליכי העבודה והאוטומציה. כך תיהנו משירות
+          מותאם אישית, חכם ומהיר עוד יותר.
+        </section>
       </div>
     </div>
   );

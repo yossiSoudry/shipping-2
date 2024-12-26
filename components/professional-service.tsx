@@ -13,32 +13,7 @@ const ProfessionalService: NextPage<ProfessionalServiceType> = ({
       className={`self-stretch flex flex-row items-start justify-start py-0 pl-[252px] pr-0 box-border max-w-full text-center text-6xl text-gray font-heebo ${className}`}
     >
       <div className="flex flex-col items-start justify-start gap-[82px] max-w-[156%]">
-        <div className="flex flex-row items-start justify-start py-0 pl-[34px] pr-0 box-border max-w-full">
-          <div className="flex flex-col items-end justify-start gap-[38px]">
-            <div className="w-[1850px] flex flex-row items-start justify-start max-w-full">
-              <div className="flex flex-col items-end justify-start max-w-full">
-                <div className="self-stretch relative z-[2] mq450:text-xl">
-                  הלקוחות שלנו מספרים על שירות מקצועי ומדויק שעושה את העבודה
-                  פשוטה ויעילה יותר:
-                </div>
-                <div className="w-[753px] flex flex-row items-start justify-end py-0 pl-[196px] pr-[197px] box-border max-w-full mt-[-12px] text-22xl text-black">
-                  <h3 className="m-0 flex-1 relative text-inherit font-bold font-[inherit] z-[1] mq450:text-6xl mq900:text-14xl">
-                    הטמעת ביקורות גוגל
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div className="w-[708px] flex flex-col items-end justify-start gap-[22px] max-w-full text-right text-32xl text-steelblue-200">
-              <h2 className="m-0 self-stretch relative text-inherit font-extralight font-[inherit] z-[1] mq450:text-12xl mq900:text-22xl">
-                ALL-IN-ONE
-              </h2>
-              <h3 className="m-0 relative text-24xl font-bold font-[inherit] text-white inline-block max-w-full mq450:text-7xl mq900:text-15xl">
-                <p className="m-0">פלטפורמה דיגיטלית חכמה</p>
-                <p className="m-0">לניהול מושלם של המשלוחים</p>
-              </h3>
-            </div>
-          </div>
-        </div>
+       
         <div className="w-[950.5px] flex flex-col items-start justify-start py-0 pl-0 pr-5 box-border gap-[26px] max-w-full text-22xl text-black">
           <h3 className="m-0 self-stretch relative text-inherit font-bold font-[inherit] mq450:text-6xl mq900:text-14xl">
             האקסטרה שלנו - כי אנחנו מאמינים שהאחריות עלינו
