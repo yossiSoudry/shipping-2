@@ -44,9 +44,9 @@ const LidForm: NextPage<LidFormType> = ({ title }) => {
   };
 
   return (
-    <div className="max-w-4xl w-full bg-white shadow-lg rounded-lg p-6 min-h-36 flex flex-col justify-center">
+    <div className="max-w-4xl w-full bg-white shadow-lg border border-slate-100 rounded-lg p-6 min-h-36 flex flex-col justify-center">
       {title && (
-        <h2 className="text-2xl w-full text-start text-steelblue-200 mb-6">
+        <h2 className="text-2xl w-full text-start text-sky-800 mb-6">
           השאירו פרטים ותתחילו להתייעל
         </h2>
       )}
@@ -83,7 +83,7 @@ const LidForm: NextPage<LidFormType> = ({ title }) => {
         />
         <button
           type="submit"
-          className="w-1/4 p-3 bg-steelblue-200 text-white font-bold rounded hover:bg-steelblue-100 focus:outline-none focus:ring-2 focus:ring-steelblue-200"
+          className="w-1/4 p-3 bg-sky-800 text-white font-bold rounded hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-sky-800"
         >
           תבדקו אותנו
         </button>

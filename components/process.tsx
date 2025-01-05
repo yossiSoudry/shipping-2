@@ -15,19 +15,19 @@ const Process: NextPage<ProcessType> = ({ className = "" }) => {
             <span>
               <GoArrowLeft className="size-12 text-orange-300" />
             </span>
-            <p className="text-5xl text-steelblue-200">איחסון</p>
+            <p className="text-6xl font-semibold text-sky-800">איחסון</p>
           </div>
           <div className="flex items-center gap-6">
             <span>
               <GoArrowLeft className="size-12 text-orange-300" />
             </span>
-            <p className="text-5xl text-steelblue-200">קבלת הזמנה</p>
+            <p className="text-6xl font-semibold text-sky-800">קבלת הזמנה</p>
           </div>
           <div className="flex items-center gap-6">
             <span>
               <GoArrowLeft className="size-12 text-orange-300" />
             </span>
-            <p className="text-5xl text-steelblue-200">אריזה ושילוח</p>
+            <p className="text-6xl font-semibold text-sky-800">אריזה ושילוח</p>
           </div>
         </div>
       </div>
@@ -40,7 +40,7 @@ const Process: NextPage<ProcessType> = ({ className = "" }) => {
         <b>ואתה תוכל להתרכז בניהול העסק שלך.</b>
       </div>
       <div className="flex flex-col items-center justify-center w-full relative">
-        <div className="bg-steelblue-200 w-full p-20 text-white relative h-[400px]">
+        <div className="bg-sky-800 w-full p-20 text-white relative h-[400px]">
           <h2 className="text-5xl font-extralight">למי שירות E2E מתאים?</h2>
           <div className="flex items-center justify-center">
             <div className="w-1/6">
@@ -71,10 +71,10 @@ const Process: NextPage<ProcessType> = ({ className = "" }) => {
         <LidForm title />
         </div>
 
-        <div className="bg-burlywood w-full p-20 text-white relative flex justify-center h-[400px]">
+        <div className="bg-orange-200 w-full p-20 text-white relative flex justify-center h-[400px]">
           <div className="flex items-start justify-start gap-6 flex-col w-fit">
-            <h2 className="text-steelblue-200 text-5xl font-semibold">מערכת</h2>
-            <h2 className="text-steelblue-200 text-5xl font-extralight">
+            <h2 className="text-sky-800 text-5xl font-semibold mt-10">מערכת</h2>
+            <h2 className="text-sky-800 text-5xl font-extralight">
               ALL-IN-ONE
             </h2>
             <h2 className="text-white text-3xl font-bold">

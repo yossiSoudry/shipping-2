@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import Image from "next/image";
-import Cards from "./cards";
 import LidForm from "./LidForm";
 
 export type FrameComponentType = {
@@ -24,7 +23,7 @@ const FrameComponent: NextPage<FrameComponentType> = ({ className = "" }) => {
               width={423}
               height={109}
               alt=""
-              src="/image-1@2x.png"
+              src="/logo.png"
             />
             <Image
               className="absolute top-[231px] left-[688px] w-56 h-56 overflow-hidden z-[3]"
@@ -32,34 +31,33 @@ const FrameComponent: NextPage<FrameComponentType> = ({ className = "" }) => {
               width={224}
               height={224}
               alt=""
-              src="/isolation-mode.svg"
+              src="/clock.svg"
             />
             <Image
               className="absolute top-[304px] w-[637px] h-[414px] object-cover z-[4]"
               width={637}
               height={414}
               alt=""
-              src="/-11@2x.png"
+              src="/truck.png"
             />
             <Image
               className="absolute top-[210px] left-[481px] w-[258px] h-[490px] object-cover z-[5]"
               width={258}
               height={490}
               alt=""
-              src="/--1@2x.png"
+              src="/courier.png"
             />
             <Image
               className="absolute top-[522px] left-[508px] w-[439px] h-[205px] object-cover z-[6]"
               width={439}
               height={205}
               alt=""
-              src="/--1-1@2x.png"
+              src="/packages.png"
             />
           </div>
 
          
         </div>
-        {/* <div className="h-[1080px] w-[586px] relative bg-gainsboro shrink-0 max-w-full z-[3]" /> */}
       </div>
 
     </section>

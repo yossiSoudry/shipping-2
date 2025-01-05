@@ -8,12 +8,12 @@ const Responsibilities = () => {
         <div className="lg:w-1/2 xl:px-20">
           <div className="max-w-3xl flex flex-col gap-4">
             <div>
-              <MoveDown className="size-20 text-steelblue-200" />
+              <MoveDown className="size-20 text-sky-800" />
             </div>
             <div className="">
               <h3 className="text-4xl font-light text-right">
                 לוקחים אחריות על{" "}
-                <span className="text-steelblue-200 font-bold">
+                <span className="text-sky-800 font-bold">
                   הכספים שלכם!
                 </span>
               </h3>
@@ -30,12 +30,12 @@ const Responsibilities = () => {
             </div>
 
             <div>
-              <MoveDown className="size-20 text-steelblue-200" />
+              <MoveDown className="size-20 text-sky-800" />
             </div>
             <div className="">
               <h3 className="text-4xl font-light text-right">
                 לוקחים אחריות על{" "}
-                <span className="text-steelblue-200 font-bold">
+                <span className="text-sky-800 font-bold">
                   התכולה שלכם!
                 </span>
               </h3>
@@ -52,12 +52,12 @@ const Responsibilities = () => {
             </div>
 
             <div>
-              <MoveDown className="size-20 text-steelblue-200" />
+              <MoveDown className="size-20 text-sky-800" />
             </div>
             <div>
               <h3 className="text-4xl font-light text-right">
                 לוקחים אחריות על{" "}
-                <span className="text-steelblue-200 font-bold">
+                <span className="text-sky-800 font-bold">
                   השירות שלכם!
                 </span>
               </h3>
@@ -81,7 +81,7 @@ const Responsibilities = () => {
               width={592}
               height={642}
               alt=""
-              src="/driver2@2x.png"
+              src="/driver-1.png"
             />
             <Image
               className="rounded-[52px] absolute -top-20 -right-20 object-cover z-[1]"
@@ -89,7 +89,7 @@ const Responsibilities = () => {
               width={286}
               height={286}
               alt=""
-              src="/driver1@2x.png"
+              src="/driver-2.png"
             />
           </div>
         </div>
@@ -101,20 +101,20 @@ const Responsibilities = () => {
         <div className="container mx-auto flex justify-between items-center mt-10">
           <div className="">
             <Image
-              className=""
+              className="w-[378px] h-[14.7px] relative"
               loading="lazy"
               width={378}
               height={15}
               alt=""
-              src="/arrow2.svg"
+              src="/arrow-6.svg"
             />
           </div>
-          <h1 className="text-steelblue-200 font-light text-6xl">
+          <h1 className="text-sky-800 font-light text-6xl">
             ואנחנו יודעים לקחת אחריות!
           </h1>
           <div className="">
             <Image
-              className="w-[378px] h-[14.7px] relative"
+              className="w-[378px] h-[14.7px] relative rotate-180"
               loading="lazy"
               width={378}
               height={15}

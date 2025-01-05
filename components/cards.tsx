@@ -11,7 +11,7 @@ const Cards = () => {
             <div className="text-start text-orange-200/60 font-light shrink-0 z-[4] text-8xl">
               1
             </div>
-            <div className="flex items-start justify-end py-0 pl-0 pr-[13px] box-border max-w-full text-18xl text-steelblue-200">
+            <div className="flex items-start justify-end py-0 pl-0 pr-[13px] box-border max-w-full text-18xl text-sky-800">
               <div className="flex-1 flex flex-col items-start justify-start max-w-full">
                 <div className="relative font-extrabold inline-block z-[5] text-4xl">
                   קווי לילה
@@ -20,7 +20,7 @@ const Cards = () => {
                   <h3 className="m-0 relative text-inherit font-extralight font-[inherit] inline-block max-w-full z-[3] text-4xl">
                     לא מפסיקים לרגע לנוע
                   </h3>
-                  <div className="relative text-black z-[4] max-w-md text-start">
+                  <div className="relative text-bl z-[4] max-w-md text-start">
                     אנחנו מבינים שזמן הוא גורם קריטי עבורכם, ולכן פיתחנו מערך
                     הפצה שפועל גם בלילה. שעות הלילה השקטות מנוצלות כדי להוביל
                     משלוחים במהירות, כך שהחבילות יוצאות כבר למחרת בבוקר ליעדן.
@@ -36,7 +36,7 @@ const Cards = () => {
             <div className="text-start text-orange-200/60 font-light shrink-0 z-[4] text-8xl">
               2
             </div>
-            <div className="flex items-start justify-end py-0 pl-0 pr-[13px] box-border max-w-full text-18xl text-steelblue-200">
+            <div className="flex items-start justify-end py-0 pl-0 pr-[13px] box-border max-w-full text-18xl text-sky-800">
               <div className="flex-1 flex flex-col items-start justify-start max-w-full">
                 <div className="relative font-extrabold inline-block z-[5] text-4xl">
                   מחסני מיון אזוריים
@@ -61,7 +61,7 @@ const Cards = () => {
             <div className="text-start text-orange-200/60 font-light shrink-0 z-[4] text-8xl">
               3
             </div>
-            <div className="flex items-start justify-end py-0 pl-0 pr-[13px] box-border max-w-full text-18xl text-steelblue-200">
+            <div className="flex items-start justify-end py-0 pl-0 pr-[13px] box-border max-w-full text-18xl text-sky-800">
               <div className="flex-1 flex flex-col items-start justify-start max-w-full">
                 <div className="relative font-extrabold inline-block z-[5] text-4xl">
                   סוכן אישי
@@ -86,7 +86,7 @@ const Cards = () => {
             <div className="text-start text-orange-200/60 font-light shrink-0 z-[4] text-8xl">
               4
             </div>
-            <div className="flex items-start justify-end py-0 pl-0 pr-[13px] box-border max-w-full text-18xl text-steelblue-200">
+            <div className="flex items-start justify-end py-0 pl-0 pr-[13px] box-border max-w-full text-18xl text-sky-800">
               <div className="flex-1 flex flex-col items-start justify-start max-w-full">
                 <div className="relative font-extrabold inline-block z-[5] text-4xl">
                   ספיישל לטעויות כתובת
@@ -107,7 +107,7 @@ const Cards = () => {
           </div>
         </div>
       </div>
-      <div className="bg-steelblue-200 flex h-40 items-center justify-center">
+      <div className="bg-sky-800 flex h-40 items-center justify-center">
         <h2 className="text-5xl font-light text-white">
           שולחים עם שיפינג, ראש שקט ועסק שדופק
         </h2>

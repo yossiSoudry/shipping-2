@@ -11,7 +11,7 @@ const ScreenShots = () => {
               width={280}
               height={500}
               alt=""
-              src="/smartphone_mockup.png"
+              src="/phone.png"
             />
             <Image
               className="object-contain z-[4]"
@@ -19,12 +19,12 @@ const ScreenShots = () => {
               width={124}
               height={99}
               alt=""
-              src="/ar4.svg"
+              src="/arrow-4.png"
             />
           </div>
         </div>
         <div className="flex-1 flex flex-col gap-4 pt-10">
-          <p className="text-4xl text-steelblue-200 font-bold">
+          <p className="text-4xl text-sky-800 font-bold">
             מעקב אחרי המשלוח בזמן אמת
           </p>
           <p className="text-4xl">עבור מקבל החבילה ועבור השולח</p>
@@ -40,20 +40,19 @@ const ScreenShots = () => {
       </div>
       <div className="flex container pt-20">
         <div className="flex-1 flex justify-end">
-
-        <div className="flex flex-col gap-4 pt-32 mr-auto max-w-fit">
-          <p className="text-4xl text-steelblue-200 font-bold">
-            הפקת דוחות מסודרים בכל זמן
-          </p>
-          <p className="text-4xl">ליעול והתמצאות מלאה</p>
-          <ul dir="rtl" className="text-xl leading-9 list-disc px-8">
-            <li>דוחות חודשיים ממוינים לפי קטגוריות</li>
-            <li>דוחות איסוף תשלומים וקיזוז מעלויות המשלוחים</li>
-            <li>אנליזה של שביעות רצון</li>
-            <li>דוחות זמני אספקה ואיכות השירות</li>
-            <li>ניתוח תובנות שילוח בהתאם לדוחות</li>
-          </ul>
-        </div>
+          <div className="flex flex-col gap-4 pt-32 mr-auto max-w-fit">
+            <p className="text-4xl text-sky-800 font-bold">
+              הפקת דוחות מסודרים בכל זמן
+            </p>
+            <p className="text-4xl">ליעול והתמצאות מלאה</p>
+            <ul dir="rtl" className="text-xl leading-9 list-disc px-8">
+              <li>דוחות חודשיים ממוינים לפי קטגוריות</li>
+              <li>דוחות איסוף תשלומים וקיזוז מעלויות המשלוחים</li>
+              <li>אנליזה של שביעות רצון</li>
+              <li>דוחות זמני אספקה ואיכות השירות</li>
+              <li>ניתוח תובנות שילוח בהתאם לדוחות</li>
+            </ul>
+          </div>
         </div>
         <div className="flex-1 relative flex items-start">
           <Image
@@ -62,14 +61,14 @@ const ScreenShots = () => {
             width={124}
             height={99}
             alt=""
-            src="/ar5.svg"
+            src="/arrow-5.png"
           />
           <Image
             className="object-contain z-[3]"
             width={600}
             height={400}
             alt=""
-            src="/rectangle-6@2x.png"
+            src="/desktop.png"
           />
         </div>
       </div>
@@ -79,11 +78,41 @@ const ScreenShots = () => {
         </b>
         <div className="w-full flex flex-row container mx-auto items-center justify-between">
           <div className="flex-1 flex flex-row items-start justify-between max-w-full gap-5 mq1325:flex-wrap">
-            <div className="h-[93px] w-[164px] relative bg-gainsboro" />
-            <div className="h-[93px] w-[163px] relative bg-gainsboro" />
-            <div className="h-[94px] w-[164px] relative bg-gainsboro" />
-            <div className="h-[94px] w-[163px] relative bg-gainsboro" />
-            <div className="h-[94px] w-[164px] relative bg-gainsboro" />
+            <Image
+              height={93}
+              width={164}
+              alt=""
+              src="/woocommerce.png"
+              className="h-[93px] w-[164px] relative"
+            />
+            <Image
+              height={93}
+              width={164}
+              alt=""
+              src="/shopify.jpeg"
+              className="h-[93px] w-[164px] relative"
+            />
+            <Image
+              height={93}
+              width={164}
+              alt=""
+              src="/wix.png"
+              className="h-[93px] w-[164px] relative"
+            />
+            <Image
+              height={93}
+              width={164}
+              alt=""
+              src="/wordpress.png"
+              className="h-[93px] w-[164px] relative"
+            />
+            <Image
+              height={93}
+              width={164}
+              alt=""
+              src="/magento.png"
+              className="h-[93px] w-[164px] relative"
+            />
           </div>
         </div>
         <section
