@@ -14,7 +14,6 @@ import Footer from "../components/frame-component1";
 const MacBookPro16: NextPage = () => {
   return (
     <div className="w-full h-full relative bg-white text-right text-22xl text-gray font-heebo">
-      {/* <header className=" bg-sky-100 w-full h-80" /> */}
       <Hero />
       <Cards />
       <Responsibilities />
@@ -22,7 +21,7 @@ const MacBookPro16: NextPage = () => {
       <Process />
       <ScreenShots />
       <Reviews />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

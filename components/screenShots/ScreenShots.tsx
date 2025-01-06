@@ -76,8 +76,8 @@ const ScreenShots = () => {
         <b className="text-4xl">
           אנו יודעים להתחבר לכל הפלטפורמות הדיגיטליות המובילות בקלות וביעילות
         </b>
-        <div className="w-full flex flex-row container mx-auto items-center justify-between">
-          <div className="flex-1 flex flex-row items-start justify-between max-w-full gap-5 mq1325:flex-wrap">
+        <div className="w-full flex container mx-auto items-center justify-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-12 xl:gap-16 px-10">
             <Image
               height={93}
               width={164}
@@ -111,6 +111,13 @@ const ScreenShots = () => {
               width={164}
               alt=""
               src="/magento.png"
+              className="h-[93px] w-[164px] relative"
+            />
+            <Image
+              height={93}
+              width={164}
+              alt=""
+              src="/make.png"
               className="h-[93px] w-[164px] relative"
             />
           </div>

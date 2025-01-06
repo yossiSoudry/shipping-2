@@ -41,23 +41,23 @@ const Process: NextPage<ProcessType> = ({ className = "" }) => {
       </div>
       <div className="flex flex-col items-center justify-center w-full relative">
         <div className="bg-sky-800 w-full p-20 text-white relative h-[400px]">
-          <h2 className="text-5xl font-extralight">למי שירות E2E מתאים?</h2>
-          <div className="flex items-center justify-center">
-            <div className="w-1/6">
+          <h2 className="text-5xl font-extralight mb-20 text-center">למי שירות E2E מתאים?</h2>
+          <div className="flex items-start justify-between gap-10 xl:px-20">
+            <div className="w-1/4">
               <h3 className="text-3xl font-semibold">בעלי חנויות אונליין</h3>
               <p>
                 פתרון קבוע לאחסון וטיפול במשלוחים היומיומיים, בלי הצורך בניהול
                 מחסן וצוות אריזה.
               </p>
             </div>
-            <div className="w-1/6">
+            <div className="w-1/4">
               <h3 className="text-3xl font-semibold">מנהלי רכש בארגונים</h3>
               <p>
                 פתרון מקצועי לפרויקטים מיוחדים כמו חלוקת שי לעובדים, ערכות
                 לכנסים ואירועים תקופתיים.
               </p>
             </div>
-            <div className="w-1/6">
+            <div className="w-1/4">
               <h3 className="text-3xl font-semibold">יבואנים וסוכנים</h3>
               <p>
                 שירותי אחסון בטוח לסחורה וטיפול מלא בהפצה ללקוחות ולנקודות

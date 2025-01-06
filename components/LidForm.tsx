@@ -44,7 +44,7 @@ const LidForm: NextPage<LidFormType> = ({ title }) => {
   };
 
   return (
-    <div className="max-w-4xl w-full bg-white shadow-lg border border-slate-100 rounded-lg p-6 min-h-36 flex flex-col justify-center">
+    <div className="max-w-4xl w-full bg-white shadow-xl border border-orange-200 rounded-lg p-8 mx-4 min-h-32 flex flex-col justify-center border-t-orange-300 border-b-orange-100">
       {title && (
         <h2 className="text-2xl w-full text-start text-sky-800 mb-6">
           השאירו פרטים ותתחילו להתייעל
@@ -52,7 +52,7 @@ const LidForm: NextPage<LidFormType> = ({ title }) => {
       )}
       <form
         onSubmit={handleSubmit}
-        className="flex items-center justify-between gap-4 text-slate-800"
+        className="flex flex-col md:flex-row items-center justify-between gap-4 text-slate-800"
       >
         <input
           type="text"
@@ -60,7 +60,7 @@ const LidForm: NextPage<LidFormType> = ({ title }) => {
           value={formData.name}
           onChange={handleChange}
           placeholder="שם"
-          className="w-1/4 p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-steelblue-500"
+          className="w-full md:w-1/4 p-1 md:p-3 px-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-steelblue-500"
           required
         />
         <input
@@ -69,7 +69,7 @@ const LidForm: NextPage<LidFormType> = ({ title }) => {
           value={formData.phone}
           onChange={handleChange}
           placeholder="טלפון"
-          className="w-1/4 p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-steelblue-500"
+          className="w-full md:w-1/4 p-1 md:p-3 px-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-steelblue-500"
           required
         />
         <input
@@ -78,12 +78,12 @@ const LidForm: NextPage<LidFormType> = ({ title }) => {
           value={formData.email}
           onChange={handleChange}
           placeholder="אימייל"
-          className="w-1/4 p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-steelblue-500"
+          className="w-full md:w-1/4 p-1 md:p-3 px-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-steelblue-500"
           required
         />
         <button
           type="submit"
-          className="w-1/4 p-3 bg-sky-800 text-white font-bold rounded hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-sky-800"
+          className="w-full md:w-1/4 p-1 md:p-3 px-3 bg-sky-800 text-white font-bold rounded hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-sky-800"
         >
           תבדקו אותנו
         </button>
